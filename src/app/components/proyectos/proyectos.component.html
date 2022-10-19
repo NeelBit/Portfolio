@@ -2,11 +2,9 @@
 
     <h2>Proyectos y prácticas</h2>
 
-    <!-- probando terminal -->
     <input type="hidden" name="selection" #selection>
 
     <div class="proyectos__contenedor">
-
 
         <div *ngFor="let proyecto of proyectos" class="card" (click)="selection.value = proyecto.valor">
             <div class="contenedor__img">
@@ -24,8 +22,6 @@
                     </svg>
                 </a>
 
-
-
                 <a *ngIf="proyecto.demo" href={{proyecto.demo}} target="_blank" rel="noopener noreferrer" tooltip="Ver demo desplegado" placement="bottom">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
@@ -33,7 +29,6 @@
                 </a>
             </div>
         </div>
-
 
 
 
@@ -59,9 +54,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                     </svg>
                 </a>
-
             </div>
-
         </div> -->
 
         <!-- a lo artesanal -->
@@ -86,9 +79,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                     </svg>
                 </a>
-
             </div>
-
         </div> -->
 
         <!-- Despertares -->
@@ -113,9 +104,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                     </svg>
                 </a>
-
             </div>
-
         </div> -->
 
         <!-- tour of heroes -->
@@ -140,11 +129,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                     </svg>
                 </a>
-
             </div>
-
         </div> -->
-
 
         <!-- blog de café -->
         <!-- <div class="card" (click)="selection.value = 'blog de cafe'">
@@ -168,11 +154,8 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                     </svg>
                 </a>
-
             </div>
-
         </div> -->
-
 
         <!-- Mascotas gsm -->
         <!-- <div class="card" (click)="selection.value = 'mascotasgsm'">
@@ -196,34 +179,27 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                     </svg>
                 </a>
-
             </div>
-
         </div> -->
 
     </div>
 
-
-
     <div class="proyectos__ver-mas">
         <!-- Terminal -->
         <div class="terminal" [ngSwitch]="selection.value">
-            <!-- TO-DO: efecto maquina de escribir -->
 
-            <pre>\Neelbit> <span class="typewriter">Ver mas en <a href="https://github.com/NeelBit" target="_blank" rel="noopener noreferrer"> Github </a></span> </pre>
-            <pre *ngSwitchDefault>Selecciona alguna tarjeta.</pre>
-            <pre *ngSwitchCase="'breaking bad'">Repositorio de <a href="https://github.com/NeelBit/breaking_bad_wiki_angular" target="_blank" rel="noopener noreferrer">"Breaking bad wiki"</a></pre>
-            <pre *ngSwitchCase="'a lo artesanal'">Repositorio de <a href="https://github.com/NeelBit/a_lo_artesanal" target="_blank" rel="noopener noreferrer">"A lo artesanal"</a></pre>
-            <pre *ngSwitchCase="'despertares'">Repositorio de <a href="https://neelbit.github.io/despertares_propuesta/" target="_blank" rel="noopener noreferrer">"Despertares propuesta"</a></pre>
-            <pre *ngSwitchCase="'tour of heroes'">Repositorio de <a href="https://github.com/NeelBit/tour_of_heroes" target="_blank" rel="noopener noreferrer">"Tour of heroes"</a></pre>
-            <pre *ngSwitchCase="'blog de cafe'">Repositorio de <a href="https://github.com/NeelBit/blog_cafe" target="_blank" rel="noopener noreferrer">"Blog de café"</a>(maquetado)</pre>
-            <pre *ngSwitchCase="'mascotasgsm'">Repositorio de <a href="https://github.com/NeelBit/mascotas_gsm" target="_blank" rel="noopener noreferrer">"Mascotas gsm"</a></pre>
-
+            <pre>\Neelbit> <span class="typewriter">Ver mas en <a href="https://github.com/NeelBit" target="_blank" rel="noopener noreferrer">Github</a> </span> </pre>
+            <p *ngSwitchDefault><a href="http://" target="_blank" rel="noopener noreferrer">Código fuente de este portfolio</a>. Selecciona alguna tarjeta.</p>
+            <p *ngSwitchCase="'breaking bad'">Repositorio de <a href="https://github.com/NeelBit/breaking_bad_wiki_angular" target="_blank" rel="noopener noreferrer">"Breaking bad wiki"</a></p>
+            <p *ngSwitchCase="'a lo artesanal'">Repositorio de <a href="https://github.com/NeelBit/a_lo_artesanal" target="_blank" rel="noopener noreferrer">"A lo artesanal"</a></p>
+            <p *ngSwitchCase="'despertares'">Repositorio de <a href="https://neelbit.github.io/despertares_propuesta/" target="_blank" rel="noopener noreferrer">"Despertares propuesta"</a></p>
+            <p *ngSwitchCase="'tour of heroes'">Repositorio de <a href="https://github.com/NeelBit/tour_of_heroes" target="_blank" rel="noopener noreferrer">"Tour of heroes"</a></p>
+            <p *ngSwitchCase="'blog de cafe'">Repositorio de <a href="https://github.com/NeelBit/blog_cafe" target="_blank" rel="noopener noreferrer">"Blog de café"</a>(maquetado)</p>
+            <p *ngSwitchCase="'mascotasgsm'">Repositorio de <a href="https://github.com/NeelBit/mascotas_gsm" target="_blank" rel="noopener noreferrer">"Mascotas gsm"</a></p>
+            <p *ngSwitchCase="'festivalMusica'">Repositorio de <a href="https://github.com/NeelBit/festival_musica" target="_blank" rel="noopener noreferrer">"Festival de música ficticio"</a></p>
+            <p *ngSwitchCase="'galeriaYmapa'">Repositorio de <a href="https://github.com/NeelBit/galeria_mapa_darkmodeIconEffect" target="_blank" rel="noopener noreferrer">"Galería de imágenes y mapa"</a></p>
 
         </div>
-
     </div>
-
-
 
 </section>

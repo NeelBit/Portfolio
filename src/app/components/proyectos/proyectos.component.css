@@ -10,18 +10,13 @@
 
 .card {
     width: 25rem;
-
     height: 35rem;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     border-radius: var(--redondeo);
-
-
 }
 
 .contenedor__img {
@@ -32,27 +27,18 @@
 
 .card__img {
     transition: transform 1s;
-
-
-
     width: 25rem;
-
 }
 
 .card__img:hover {
     transform: scale(1.2);
-
 }
 
 .card__descripcion {
-
     border-bottom: solid 1px var(--colorNegroRelax);
-
     text-align: center;
     padding: 1rem;
-
     height: 15rem;
-
     display: grid;
     place-content: center;
 }
@@ -71,17 +57,10 @@
     padding: .2rem;
 }
 
-
-
 .card__enlaces svg {
     width: 4.4rem;
 }
 
-
-
-
-
-/* probando terminal */
 .proyectos__ver-mas {}
 
 .terminal {
@@ -93,10 +72,7 @@
     margin-top: 8px;
     overflow: hidden;
     background-color: rgb(15, 15, 16);
-
-
     margin: var(--separacion) auto;
-
     height: 15rem;
 }
 
@@ -115,66 +91,37 @@
     text-indent: 4px;
 }
 
-.terminal pre {
-    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-    color: white;
-    /* padding: 0 1rem 1rem; */
+.terminal pre,
+.terminal p {
+    font-family: Source Code Pro, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    color: var(--colorBlanco);
     padding: .5rem;
     margin: 0 0 0 1rem;
-
     font-size: 1.6rem;
-
 }
 
-.terminal pre a {
+.terminal pre a,
+.terminal p a {
     color: var(--colorBlanco);
     text-decoration: underline 1px var(--colorAzul1);
+    font-family: Source Code Pro, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
-.terminal pre a:hover {
+.terminal pre a:hover,
+.terminal p a:hover {
     background: var(--colorAzul2);
 }
-
-
-
-
-/* probando typewriter */
 
 .typewriter {
     border-right: solid 3px rgba(0, 255, 0, .75);
     white-space: nowrap;
     overflow: hidden;
-    /* font-family: 'Source Code Pro', monospace; */
-    /* font-size: 28px; */
-    color: rgba(255, 255, 255, .70);
-
-}
-
-/* Animation */
-.typewriter {
-    animation:
-        /* animated-text 4s steps(16) 1s 1 normal both, */
-        /* animated-cursor 500ms steps(16) infinite normal; */
-        animated-cursor 500ms steps(42) infinite normal;
-}
-
-/* text animation */
-
-@keyframes animated-text {
-    from {
-        width: 0;
-    }
-
-    to {
-        /* width: 300px; */
-        width: 35rem;
-    }
+    animation: animated-cursor 500ms steps(16) infinite normal;
+    font-family: Source Code Pro, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 /* cursor animations */
-
 @keyframes animated-cursor {
-
 
     from {
         border-right-color: rgba(255, 255, 255, .70);
@@ -185,9 +132,4 @@
         border-right-color: transparent;
         /* height: 2.6rem */
     }
-}
-
-.typewriter img {
-    width: 2rem;
-    color: var(--colorBlanco);
 }

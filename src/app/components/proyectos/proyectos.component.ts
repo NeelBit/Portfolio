@@ -13,7 +13,7 @@ export class ProyectosComponent implements OnInit {
             valor: "breaking bad",
             srcImg: "../../../assets/img/capturabreaking-bad-wiki.jpeg",
             srcAlt: "captura de app web hecha en angular de la wiki de la serie breaking bad",
-            descripcion: 'Sitio web hecho en Angular de la wiki de la serie Breaking bad.',
+            descripcion: 'App web hecha en Angular, wiki de la serie Breaking bad. Búsqueda integrada y Bootstrap.',
             source: 'https://github.com/NeelBit/breaking_bad_wiki_angular',
             demo: ''
         },
@@ -40,7 +40,7 @@ export class ProyectosComponent implements OnInit {
             valor: "tour of heroes",
             srcImg: "../../../assets/img/capturatour_of_heroes.jpeg",
             srcAlt: "captura de app web tour of heroes del tutorial de angular",
-            descripcion: 'App web en angular, del tutorial oficial.',
+            descripcion: 'App web en Angular, del tutorial oficial.',
             source: "https://github.com/NeelBit/tour_of_heroes",
             demo: ""
         },
@@ -49,7 +49,7 @@ export class ProyectosComponent implements OnInit {
             valor: "blog de cafe",
             srcImg: "../../../assets/img/capturaBlogDeCafe.jfif",
             srcAlt: "captura de blog ficticio de café (maquetacion)",
-            descripcion: 'Sitio web hecho en HTML y CSS, blog de café.',
+            descripcion: 'Sitio web estático y responsive hecho en HTML y CSS, blog de café ficticio.',
             source: "https://github.com/NeelBit/blog_cafe",
             demo: "https://blog-cafe-neel.netlify.app"
         },
@@ -61,6 +61,25 @@ export class ProyectosComponent implements OnInit {
             descripcion: 'App web hecho en Django, usando además materialize css.',
             source: "https://github.com/NeelBit/mascotas_gsm",
             demo: "https://mascotasgsm.herokuapp.com"
+        },
+
+        {
+            nombre: "Festival musica",
+            valor: "festivalMusica",
+            srcImg: "../../../assets/img/capturaFestivalMusica.jfif",
+            srcAlt: "captura de proyecto realizado con html5, CSS3 y JavaScript + Sass. Sitio sobre un festival de música, formato landing page simple, sitio web responsive",
+            descripcion: 'Proyecto realizado con html5, CSS3 y JavaScript + Sass. Sitio sobre un festival de música ficticio, formato landing page, sitio web responsive.',
+            source: "https://github.com/NeelBit/festival_musica",
+            demo: "https://festival-musica-21.netlify.app/"
+        },
+        {
+            nombre: "Galeria y mapa",
+            valor: "galeriaYmapa",
+            srcImg: "../../../assets/img/capturaGaleriaYmapa.jfif",
+            srcAlt: "captura de sitio responsive con HTML, CSS y JS. Galería de imágenes estáticas, mapa con la opción de ir a ubicación, e icono + efecto de darkmode",
+            descripcion: 'Sitio responsive con HTML, CSS y JS. Galería de imágenes estáticas, mapa con la opción de ir a ubicación, icono + efecto de darkmode.',
+            source: "https://github.com/NeelBit/galeria_mapa_darkmodeIconEffect",
+            demo: "https://galeria-mapa-darkmodeicon.netlify.app/"
         },
     ]
 

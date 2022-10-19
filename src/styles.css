@@ -13,7 +13,6 @@
     --colorAzul1: #2979ff;
     /* blue lighten-2 */
     --colorAzul2: #64b5f6;
-    /* --colorAzulClaro: rgba(43, 43, 213, 0.734); */
 
     /* Fonts (montserrat 400,700 / cardo 400 italic) */
     /* font-family: 'Cardo', serif;
@@ -53,8 +52,6 @@ body {
     background-color: var(--colorFondoBlanco);
 }
 
-.main {}
-
 section {
     padding-top: 4.4rem;
 }
@@ -82,7 +79,6 @@ section {
 a {
     text-decoration: none;
     color: var(--colorNegroRelax);
-
 }
 
 
