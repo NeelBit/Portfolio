@@ -1,0 +1,193 @@
+.proyectos {}
+
+.proyectos__contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--separacion);
+}
+
+.card {
+    width: 25rem;
+
+    height: 35rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: var(--redondeo);
+
+
+}
+
+.contenedor__img {
+    border-radius: var(--redondeo) var(--redondeo) 0 0;
+    overflow: hidden;
+    height: 15rem;
+}
+
+.card__img {
+    transition: transform 1s;
+
+
+
+    width: 25rem;
+
+}
+
+.card__img:hover {
+    transform: scale(1.2);
+
+}
+
+.card__descripcion {
+
+    border-bottom: solid 1px var(--colorNegroRelax);
+
+    text-align: center;
+    padding: 1rem;
+
+    height: 15rem;
+
+    display: grid;
+    place-content: center;
+}
+
+.card__descripcion,
+.card__img:hover {
+    cursor: pointer;
+}
+
+.card__enlaces {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    padding: .2rem;
+}
+
+
+
+.card__enlaces svg {
+    width: 4.4rem;
+}
+
+
+
+
+
+/* probando terminal */
+.proyectos__ver-mas {}
+
+.terminal {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+
+
+    margin: var(--separacion) auto;
+
+    height: 15rem;
+}
+
+.terminal::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 4px;
+}
+
+.terminal pre {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    color: white;
+    /* padding: 0 1rem 1rem; */
+    padding: .5rem;
+    margin: 0 0 0 1rem;
+
+    font-size: 1.6rem;
+
+}
+
+.terminal pre a {
+    color: var(--colorBlanco);
+    text-decoration: underline 1px var(--colorAzul1);
+}
+
+.terminal pre a:hover {
+    background: var(--colorAzul2);
+}
+
+
+
+
+/* probando typewriter */
+
+.typewriter {
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-size: 28px; */
+    color: rgba(255, 255, 255, .70);
+
+}
+
+/* Animation */
+.typewriter {
+    animation:
+        /* animated-text 4s steps(16) 1s 1 normal both, */
+        /* animated-cursor 500ms steps(16) infinite normal; */
+        animated-cursor 500ms steps(42) infinite normal;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        /* width: 300px; */
+        width: 35rem;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+
+
+    from {
+        border-right-color: rgba(255, 255, 255, .70);
+        /* height: 2.6rem */
+    }
+
+    to {
+        border-right-color: transparent;
+        /* height: 2.6rem */
+    }
+}
+
+.typewriter img {
+    width: 2rem;
+    color: var(--colorBlanco);
+}

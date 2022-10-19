@@ -1,0 +1,29 @@
+.main {
+    padding-top: 8rem;
+}
+
+@media (min-width: 768px) {
+    .main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: var(--separacion);
+    }
+}
+
+.main__img {
+    display: grid;
+    place-content: center;
+}
+
+.main__img img {
+    border-radius: 50%;
+}
+
+.main__texto {
+    text-align: center;
+}
+
+.main__texto h3 {
+    font-weight: 400;
+}
