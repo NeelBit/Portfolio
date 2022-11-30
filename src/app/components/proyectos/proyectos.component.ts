@@ -9,16 +9,25 @@ export class ProyectosComponent implements OnInit {
 
     proyectos: Proyecto[] = [
         {   
-            nombre: "breaking bad wiki",
+            nombre: "Breaking bad wiki",
             valor: "breaking bad",
             srcImg: "../../../assets/img/capturabreaking-bad-wiki.jpeg",
             srcAlt: "captura de app web hecha en angular de la wiki de la serie breaking bad",
-            descripcion: 'App web hecha en Angular, wiki de la serie Breaking bad. Búsqueda integrada y Bootstrap.',
+            descripcion: 'App web hecha en Angular + Bootstrap, wiki de la serie Breaking bad. Búsqueda integrada, API.',
             source: 'https://github.com/NeelBit/breaking_bad_wiki_angular',
             demo: ''
         },
         {
-            nombre: "a lo artesanal",
+            nombre: "Radio Fusión Cable",
+            valor: "RadioFusionCable",
+            srcImg: "../../../assets/img/capturaRadioFusionCablePropuesta.jpg",
+            srcAlt: "captura del sitio web radio fusion cable, propuesta hecha y demo",
+            descripcion: "Propuesta hecha para RadioFusionCable, HTML, CSS Y JS. Maquetación web.",
+            source: "https://github.com/NeelBit/RadioFusionCable_propuesta",
+            demo: "https://neelbit.github.io/RadioFusionCable_propuesta/"
+        },
+        {
+            nombre: "A lo artesanal",
             valor: "a lo artesanal",
             srcImg: "../../../assets/img/capturaAloartesanalGenericLaptop.jpg",
             srcAlt: "captura de sitio web landing page html css y js a lo artesanal",
@@ -48,7 +57,7 @@ export class ProyectosComponent implements OnInit {
             nombre: "Blog de café",
             valor: "blog de cafe",
             srcImg: "../../../assets/img/capturaBlogDeCafe.jfif",
-            srcAlt: "captura de blog ficticio de café (maquetacion)",
+            srcAlt: "captura de blog ficticio de café (maquetación)",
             descripcion: 'Sitio web estático y responsive hecho en HTML y CSS, blog de café ficticio.',
             source: "https://github.com/NeelBit/blog_cafe",
             demo: "https://blog-cafe-neel.netlify.app"
@@ -57,27 +66,27 @@ export class ProyectosComponent implements OnInit {
             nombre: "Mascotas gsm",
             valor: "mascotasgsm",
             srcImg: "../../../assets/img/capturaMascotasGsm.jfif",
-            srcAlt: "captura de app web de adopcion de mascotas hecha en django",
+            srcAlt: "captura de app web de adopción de mascotas hecha en Django",
             descripcion: 'App web hecho en Django, usando además materialize css.',
             source: "https://github.com/NeelBit/mascotas_gsm",
             demo: "https://mascotasgsm.herokuapp.com"
         },
 
         {
-            nombre: "Festival musica",
+            nombre: "Festival música",
             valor: "festivalMusica",
             srcImg: "../../../assets/img/capturaFestivalMusica.jfif",
             srcAlt: "captura de proyecto realizado con html5, CSS3 y JavaScript + Sass. Sitio sobre un festival de música, formato landing page simple, sitio web responsive",
-            descripcion: 'Proyecto realizado con html5, CSS3 y JavaScript + Sass. Sitio sobre un festival de música ficticio, formato landing page, sitio web responsive.',
+            descripcion: 'Proyecto realizado con HTML5, CSS3, JavaScript + Sass. Sitio sobre un festival de música ficticio, formato landing page, sitio web responsive.',
             source: "https://github.com/NeelBit/festival_musica",
             demo: "https://festival-musica-21.netlify.app/"
         },
         {
-            nombre: "Galeria y mapa",
+            nombre: "Galería y mapa",
             valor: "galeriaYmapa",
             srcImg: "../../../assets/img/capturaGaleriaYmapa.jfif",
             srcAlt: "captura de sitio responsive con HTML, CSS y JS. Galería de imágenes estáticas, mapa con la opción de ir a ubicación, e icono + efecto de darkmode",
-            descripcion: 'Sitio responsive con HTML, CSS y JS. Galería de imágenes estáticas, mapa con la opción de ir a ubicación, icono + efecto de darkmode.',
+            descripcion: 'Sitio responsive con HTML, CSS y JS. Galería de imágenes estáticas, mapa con la opción de ir a ubicación, icono + efecto darkmode.',
             source: "https://github.com/NeelBit/galeria_mapa_darkmodeIconEffect",
             demo: "https://galeria-mapa-darkmodeicon.netlify.app/"
         },

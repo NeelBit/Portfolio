@@ -11,7 +11,7 @@
                 <img class="card__img" src={{proyecto.srcImg}} alt={{proyecto.srcAlt}}>
             </div>
 
-            <div class="card__descripcion">
+            <div class="card__descripcion" tooltip={{proyecto.nombre}}>
                 {{proyecto.descripcion}}
             </div>
 
@@ -36,9 +36,10 @@
         <!-- Terminal -->
         <div class="terminal" [ngSwitch]="selection.value">
 
-            <pre>\Neelbit> <span class="typewriter">Ver mas en <a href="https://github.com/NeelBit" target="_blank" rel="noopener noreferrer">Github</a> </span> </pre>
+            <pre>/Neelbit> <span class="typewriter">Ver mas en <a href="https://github.com/NeelBit" target="_blank" rel="noopener noreferrer">Github</a> </span> </pre>
             <p *ngSwitchDefault><a href="https://github.com/NeelBit/Portfolio" target="_blank" rel="noopener noreferrer">Código fuente de este portfolio</a>. Selecciona alguna tarjeta.</p>
             <p *ngSwitchCase="'breaking bad'">Repositorio de <a href="https://github.com/NeelBit/breaking_bad_wiki_angular" target="_blank" rel="noopener noreferrer">"Breaking bad wiki"</a></p>
+            <p *ngSwitchCase="'RadioFusionCable'">Repositorio de <a href="https://github.com/NeelBit/RadioFusionCable_propuesta" target="_blank" rel="noopener noreferrer">"Radio Fusión Cable propuesta"</a></p>
             <p *ngSwitchCase="'a lo artesanal'">Repositorio de <a href="https://github.com/NeelBit/a_lo_artesanal" target="_blank" rel="noopener noreferrer">"A lo artesanal"</a></p>
             <p *ngSwitchCase="'despertares'">Repositorio de <a href="https://neelbit.github.io/despertares_propuesta/" target="_blank" rel="noopener noreferrer">"Despertares propuesta"</a></p>
             <p *ngSwitchCase="'tour of heroes'">Repositorio de <a href="https://github.com/NeelBit/tour_of_heroes" target="_blank" rel="noopener noreferrer">"Tour of heroes"</a></p>
