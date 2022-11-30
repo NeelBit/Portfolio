@@ -11,7 +11,7 @@ export class ProyectosComponent implements OnInit {
         {   
             nombre: "Breaking bad wiki",
             valor: "breaking bad",
-            srcImg: "../../../assets/img/capturabreaking-bad-wiki.jpeg",
+            srcImg: "../../../assets/img/capturabreaking-bad-wiki.webp",
             srcAlt: "captura de app web hecha en angular de la wiki de la serie breaking bad",
             descripcion: 'App web hecha en Angular + Bootstrap, wiki de la serie Breaking bad. Búsqueda integrada, API.',
             source: 'https://github.com/NeelBit/breaking_bad_wiki_angular',
@@ -20,7 +20,7 @@ export class ProyectosComponent implements OnInit {
         {
             nombre: "Radio Fusión Cable",
             valor: "RadioFusionCable",
-            srcImg: "../../../assets/img/capturaRadioFusionCablePropuesta.jpg",
+            srcImg: "../../../assets/img/capturaRadioFusionCablePropuesta.webp",
             srcAlt: "captura del sitio web radio fusion cable, propuesta hecha y demo",
             descripcion: "Propuesta hecha para RadioFusionCable, HTML, CSS Y JS. Maquetación web.",
             source: "https://github.com/NeelBit/RadioFusionCable_propuesta",
@@ -29,7 +29,7 @@ export class ProyectosComponent implements OnInit {
         {
             nombre: "A lo artesanal",
             valor: "a lo artesanal",
-            srcImg: "../../../assets/img/capturaAloartesanalGenericLaptop.jpg",
+            srcImg: "../../../assets/img/capturaAloartesanalGenericLaptop.webp",
             srcAlt: "captura de sitio web landing page html css y js a lo artesanal",
             descripcion: 'Landing page en HTML, CSS y JS, para mini emprendimiento "a lo artesanal".',
             source: "https://github.com/NeelBit/a_lo_artesanal",
@@ -38,7 +38,7 @@ export class ProyectosComponent implements OnInit {
         {
             nombre: "Despertares",
             valor: "despertares",
-            srcImg: "../../../assets/img/CapturaDespertaresPropuesta.jpeg",
+            srcImg: "../../../assets/img/CapturaDespertaresPropuesta.webp",
             srcAlt: "captura de sitio web simple despertares propuesta en html, css y javascript",
             descripcion: 'Sitio web simple estilo landing page, propuesta para "centro de día despertares". Hecho con HTML, CSS Y JS.',
             source: "https://github.com/NeelBit/despertares_propuesta",
@@ -47,7 +47,7 @@ export class ProyectosComponent implements OnInit {
         {
             nombre: "Tour of heroes",
             valor: "tour of heroes",
-            srcImg: "../../../assets/img/capturatour_of_heroes.jpeg",
+            srcImg: "../../../assets/img/capturatour_of_heroes.webp",
             srcAlt: "captura de app web tour of heroes del tutorial de angular",
             descripcion: 'App web en Angular, del tutorial oficial.',
             source: "https://github.com/NeelBit/tour_of_heroes",
