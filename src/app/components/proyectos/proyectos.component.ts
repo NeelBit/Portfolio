@@ -69,7 +69,7 @@ export class ProyectosComponent implements OnInit {
             srcAlt: "captura de app web de adopción de mascotas hecha en Django",
             descripcion: 'App web hecho en Django, usando además materialize css.',
             source: "https://github.com/NeelBit/mascotas_gsm",
-            demo: "https://mascotasgsm.herokuapp.com"
+            demo: ""
         },
 
         {
