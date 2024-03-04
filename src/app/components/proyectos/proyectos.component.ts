@@ -9,6 +9,15 @@ export class ProyectosComponent implements OnInit {
 
     proyectos: Proyecto[] = [
         {   
+            nombre: "Calcula días",
+            valor: "calcula-dias",
+            srcImg: "https://github.com/NeelBit/calcula-dias/blob/master/Cap.jpeg",
+            srcAlt: "captura de app web hecha en vue 3 calcula días, para calcular fechas",
+            descripcion: 'App web y PWA hecha en Vue 3, para calcular días transcurridos y fechas.',
+            source: 'https://github.com/NeelBit/calcula-dias',
+            demo: 'https://calcula-dias.netlify.app/'
+        },
+        {   
             nombre: "Breaking bad wiki",
             valor: "breaking bad",
             srcImg: "../../../assets/img/capturabreaking-bad-wiki.webp",
