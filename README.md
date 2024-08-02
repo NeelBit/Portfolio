@@ -4,5 +4,5 @@
 
 Proyecto portfolio hecho en Angular, con CSS puro.
 
- ![captura de pantalla porfolio neelbit](CapturaPortfolio.jpeg).
+ ![captura de pantalla porfolio neelbit](CapturaPortfolio.png).
 
