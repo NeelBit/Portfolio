@@ -11,7 +11,7 @@ export class ProyectosComponent implements OnInit {
         {   
             nombre: "Calcula días",
             valor: "calcula-dias",
-            srcImg: "https://raw.githubusercontent.com/NeelBit/calcula-dias/master/Cap.jpeg",
+            srcImg: "https://raw.githubusercontent.com/NeelBit/calcula-dias/master/cap-2024_07_27.png",
             srcAlt: "captura de app web hecha en vue 3 calcula días, para calcular fechas",
             descripcion: 'App web y PWA hecha en Vue 3, para calcular días transcurridos y fechas.',
             source: 'https://github.com/NeelBit/calcula-dias',
